@@ -15,7 +15,8 @@ public class Sneaker {
     private int qty;
     private float price;
 
-    Sneaker() {
+    public Sneaker() {
+
     }
 
     public int getId() {

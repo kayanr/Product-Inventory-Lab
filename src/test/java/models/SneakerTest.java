@@ -16,4 +16,5 @@ public class SneakerTest {
         // then (3)
         Assertions.assertEquals(expected, testSneaker.getName());
     }
+    
 }
