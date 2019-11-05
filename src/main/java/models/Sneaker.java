@@ -1,11 +1,11 @@
 package models;
 
 public class Sneaker {
-    private static Sneaker ourInstance = new Sneaker();
-
-    public static Sneaker getInstance() {
-        return ourInstance;
-    }
+//    private static Sneaker ourInstance = new Sneaker();
+//
+//    public static Sneaker getInstance() {
+//        return ourInstance;
+//    }
 
     private int id;
     private String name;
@@ -15,8 +15,15 @@ public class Sneaker {
     private int qty;
     private float price;
 
-    public Sneaker() {
-
+    public Sneaker() {}
+    public Sneaker(int id, String name, String brand, String sport, int size, int qty, float price) {
+            this.id = id;
+            this.name = name;
+            this.brand = brand;
+            this.sport = sport;
+            this.size = size;
+            this.qty = qty;
+            this.price = price;
     }
 
     public int getId() {
